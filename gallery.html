@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - MITTI Foundation</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top border-bottom" id="nav_bar">
+        <div class="container-fluid px-md-5">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.jpg" alt="MITTI Logo" height="65px" id="nav_img">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler"><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end text-center pe-3" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item" id="nav_a1">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item" id="nav_a2">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item" id="nav_a3">
+                        <a class="nav-link" href="our-work.html">Our Work</a>
+                    </li>
+                    <li class="nav-item" id="nav_a4">
+                        <a class="nav-link active" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item" id="nav_a5">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                    <li class="nav-item" id="nav_a5">
+                        <a class="nav-link" href="#donate">Donate Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Gallery Hero Section -->
+    <section class="gallery-hero py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 mb-4">Our Gallery</h1>
+                    <p class="lead">Capturing moments of impact, joy, and transformation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Albums Section -->
+    <section class="photo-albums py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Education Album -->
+                <div class="col-md-4">
+                    <div class="album-card">
+                        <div class="album-image">
+                            <img src="assets/gallery/education.jpg" alt="Education Initiatives" class="img-fluid">
+                            <div class="album-overlay">
+                                <a href="https://photos.google.com/share/..." target="_blank" class="btn btn-light">View Album</a>
+                            </div>
+                        </div>
+                        <div class="album-info">
+                            <h3>Education Initiatives</h3>
+                            <p>Transforming schools, empowering futures</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dharohar Album -->
+                <div class="col-md-4">
+                    <div class="album-card">
+                        <div class="album-image">
+                            <img src="assets/gallery/dharohar.jpg" alt="Dharohar Cultural Program" class="img-fluid">
+                            <div class="album-overlay">
+                                <a href="https://photos.google.com/share/..." target="_blank" class="btn btn-light">View Album</a>
+                            </div>
+                        </div>
+                        <div class="album-info">
+                            <h3>Dharohar Cultural Program</h3>
+                            <p>Preserving and celebrating our heritage</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Events Album -->
+                <div class="col-md-4">
+                    <div class="album-card">
+                        <div class="album-image">
+                            <img src="assets/gallery/events.jpg" alt="Events & Workshops" class="img-fluid">
+                            <div class="album-overlay">
+                                <a href="https://photos.google.com/share/..." target="_blank" class="btn btn-light">View Album</a>
+                            </div>
+                        </div>
+                        <div class="album-info">
+                            <h3>Events & Workshops</h3>
+                            <p>Community engagement and learning</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Album -->
+                <div class="col-md-4">
+                    <div class="album-card">
+                        <div class="album-image">
+                            <img src="assets/gallery/team.jpg" alt="Our Team" class="img-fluid">
+                            <div class="album-overlay">
+                                <a href="https://photos.google.com/share/..." target="_blank" class="btn btn-light">View Album</a>
+                            </div>
+                        </div>
+                        <div class="album-info">
+                            <h3>Our Team</h3>
+                            <p>Meet the people behind MITTI</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Impact Album -->
+                <div class="col-md-4">
+                    <div class="album-card">
+                        <div class="album-image">
+                            <img src="assets/gallery/impact.jpg" alt="Impact Stories" class="img-fluid">
+                            <div class="album-overlay">
+                                <a href="https://photos.google.com/share/..." target="_blank" class="btn btn-light">View Album</a>
+                            </div>
+                        </div>
+                        <div class="album-info">
+                            <h3>Impact Stories</h3>
+                            <p>Stories of transformation and hope</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Community Album -->
+                <div class="col-md-4">
+                    <div class="album-card">
+                        <div class="album-image">
+                            <img src="assets/gallery/community.jpg" alt="Community Engagement" class="img-fluid">
+                            <div class="album-overlay">
+                                <a href="https://photos.google.com/share/..." target="_blank" class="btn btn-light">View Album</a>
+                            </div>
+                        </div>
+                        <div class="album-info">
+                            <h3>Community Engagement</h3>
+                            <p>Building stronger communities together</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Gallery Section -->
+    <section class="video-gallery py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2>Featured Videos</h2>
+                    <p class="lead">Watch our impact in motion</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- Video 1 -->
+                <div class="col-md-6">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <img src="assets/gallery/video1.jpg" alt="Video 1" class="img-fluid">
+                            <div class="play-button">
+                                <a href="https://youtube.com/watch?v=..." target="_blank">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <h4>Education Transformation</h4>
+                            <p>See how we're changing lives through education</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="col-md-6">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <img src="assets/gallery/video2.jpg" alt="Video 2" class="img-fluid">
+                            <div class="play-button">
+                                <a href="https://youtube.com/watch?v=..." target="_blank">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <h4>Dharohar Cultural Program</h4>
+                            <p>Celebrating our rich cultural heritage</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 3 -->
+                <div class="col-md-6">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <img src="assets/gallery/video3.jpg" alt="Video 3" class="img-fluid">
+                            <div class="play-button">
+                                <a href="https://youtube.com/watch?v=..." target="_blank">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <h4>Community Impact</h4>
+                            <p>Stories from our community members</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video 4 -->
+                <div class="col-md-6">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <img src="assets/gallery/video4.jpg" alt="Video 4" class="img-fluid">
+                            <div class="play-button">
+                                <a href="https://youtube.com/watch?v=..." target="_blank">
+                                    <i class="fas fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <h4>Volunteer Stories</h4>
+                            <p>Hear from our dedicated volunteers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Icons Section -->
+    <section class="social-media-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center mb-4">
+                    <h2>Connect With Us</h2>
+                    <p class="lead">Follow our journey on social media</p>
+                </div>
+                <div class="col-12">
+                    <div class="social-icons-bar d-flex justify-content-center align-items-center gap-4">
+                        <a href="https://instagram.com" target="_blank" class="social-icon instagram">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" class="social-icon facebook">
+                            <i class="fab fa-facebook-f fa-2x"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-icon twitter">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-icon linkedin">
+                            <i class="fab fa-linkedin-in fa-2x"></i>
+                        </a>
+                        <a href="https://youtube.com" target="_blank" class="social-icon youtube">
+                            <i class="fab fa-youtube fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <div class="footer-brand">
+                        <img src="logo.png" alt="Our MITTI Foundation" class="img-fluid mb-3">
+                        <p class="text-white">
+                            Our MITTI Foundation is dedicated to building a more inclusive and empowered society through education, entrepreneurship, and social development initiatives.
+                        </p>
+                        <div class="social-bar">
+                            <a href="https://instagram.com" target="_blank" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://facebook.com" target="_blank" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com" target="_blank" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://linkedin.com" target="_blank" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://youtube.com" target="_blank" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="footer-title">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="our-work.html">Our Work</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="footer-title">Our Programs</h5>
+                    <ul class="footer-links">
+                        <li><a href="#education">Education Initiatives</a></li>
+                        <li><a href="#dharohar">Dharohar Cultural Program</a></li>
+                        <li><a href="#entrepreneurship">Entrepreneurship Development</a></li>
+                        <li><a href="#community">Community Outreach</a></li>
+                        <li><a href="#volunteer">Volunteer Programs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">Contact Info</h5>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:ourmittifoundation.ngo@gmail.com">ourmittifoundation.ngo@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+919811563566">+91 9811563566</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>209, 2nd Floor, City Centre,<br>
+                            Plot No.5, Pocket 8, Block B,<br>
+                            Sector 12, Dwarka, N.Delhi -110077</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="mb-0">&copy; 2024 Our MITTI Foundation. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <a href="#" class="footer-bottom-link">Privacy Policy</a>
+                        <a href="#" class="footer-bottom-link">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html> 

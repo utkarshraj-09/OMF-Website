@@ -1,0 +1,764 @@
+<!-- news, new members, google form , donation, join   -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Backup Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- aos cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- link css, media and favicon -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="fevicon.png" type="image/png" />
+
+
+    <title>ourmittifoundation</title>
+  </head>
+
+  <body>
+    <!-- Popup form -->
+    <!-- <div class="popup-overlay" id="popupOverlay">
+      <div class="popup">
+          <button class="close-btn" onclick="closePopup()">×</button>
+          <h2>Get Involved</h2>
+          <p>Fill out the form below to connect with us.</p>
+          <form id="popupForm">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Enter your name" required>
+
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Enter your email" required>
+
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Your message" required></textarea>
+
+              <button type="submit">Submit</button>
+          </form>
+      </div>
+  </div>  -->
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg sticky-top border-bottom" id="nav_bar">
+      <div class="container-fluid px-md-5">
+        <a class="navbar-brand" href="#"
+          ><img src="logo.jpg" alt="" height="65px" id="nav_img"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler"><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end text-center pe-3"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item" id="nav_a1">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item" id="nav_a4">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item" id="nav_a2">
+              <a class="nav-link" href="our-work.html">Our Work</a>
+            </li>
+            <li class="nav-item" id="nav_a3">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+
+            <li class="nav-item" id="nav_a5">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item" id="nav_a5">
+              <a class="nav-link" href="#">Donate Now</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Side Navigation -->
+     <div>
+      <a href="#"></a>
+     </div>
+
+    <!-- carousel -->
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade top_carousel" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="q1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="q2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="q3.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="q5.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+
+    <!-- welcome -->
+    <section id="home"
+      class="container"
+      data-aos="fade-up"
+      data-aos-offset="-100"
+      data-aos-delay="40"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+    >
+      <div class="row text-center" id="welcome">
+        <div class="col-12">
+          <!-- <img src="https://raw.githubusercontent.com/vinayshilpani/An-NGO-Website/master/assets/love-icon.png" alt="" width="30px" /> -->
+          <h1>Welcome to <span>Our MITTI Foundation</span></h1>
+        </div>
+        <div class="col-md-8 offset-md-2 my-md-5">
+          <p>
+            Our MITTI Foundation is a not-for-profit organization working to build a more inclusive and empowered society. We focus on grassroots initiatives in education, entrepreneurship, culture, and social development, aiming to create self-sustaining models that uplift communities across India.
+            <br class="d-none d-md-block" />
+     
+            <br class="d-none d-md-block" />
+ 
+          </p>
+          <img src="https://raw.githubusercontent.com/vinayshilpani/An-NGO-Website/master/assets/sketch-1.png" alt="" width="250px" />
+          <center>
+            <img
+              src="https://raw.githubusercontent.com/vinayshilpani/An-NGO-Website/master/assets/quote-1.png"
+              alt=""
+              width="50px"
+              class="d-block d-md-none"
+            />
+          </center>
+        </div>
+      </div>
+    </section>
+    <!-- vision -->
+
+    <div class="container mb-3 mb-md-5">
+      <div class="row text-center" id="vision">
+        <div class="col-md-4">
+          <section>
+            <img
+              src="https://raw.githubusercontent.com/vinayshilpani/An-NGO-Website/master/assets/mission.png"
+              alt=""
+              class="img-fluid"
+              width="60px"
+            />
+          </section>
+          <h4>Our Mission</h4>
+          <p class="m-3">
+            Building Sustainable Change through Education, Entrepreneurship & Engagement.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <section>
+            <img
+              src="https://raw.githubusercontent.com/vinayshilpani/An-NGO-Website/master/assets/vision.png"
+              alt=""
+              class="img-fluid"
+              width="60px"
+            />
+          </section>
+          <h4>Our Vision</h4>
+          <p class="m-3">
+            Empowering People. Strengthening Communities. Preserving Heritage.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <section>
+            <img src="https://raw.githubusercontent.com/vinayshilpani/An-NGO-Website/master/assets/value.png" alt="" class="img-fluid" width="60px" />
+          </section>
+          <h4>Our Values</h4>
+          <p class="m-3">
+            Amplifying Voices. Nurturing Talent. Inspiring Action.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- what we do  -->
+
+    <section id="t-cards" class="mt-5">
+      <div class="container pb-md-5 mb-md-4 mb-3">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h1>
+              What We Do <img src="https://raw.githubusercontent.com/vinayshilpani/An-NGO-Website/master/assets/love-icon.png" alt="" width="15px" />
+            </h1>
+          </div>
+          <div
+            class="col-sm-6 col-md-3"
+            data-aos="zoom-in"
+            data-aos-delay="10"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div class="panel panel-default panel-card">
+              <div class="panel-heading">
+                <img src="adopt_a_school.jpg" alt="" />
+              </div>
+              <div class="panel-figure">
+                <i class="fa-solid fa-book-open fa-bounce"></i>
+              </div>
+              <div class="panel-body text-center">
+                <h4 class="panel-header">Education</h4>
+                <p class="m-0">
+                  <small>Empowering Schools, Enabling Futures</small>
+                </p>
+              </div>
+              <div class="panel-thumbnails">
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <p class="m-0">
+                      Transforming the future of under-resourced schools by upgrading ....
+                    </p>
+                    <a href="our-work.html">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-3"
+            data-aos="zoom-in"
+            data-aos-delay="10"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div class="panel panel-default panel-card">
+              <div class="panel-heading">
+                <img src="dharohar.png" alt="" />
+              </div>
+              <div class="panel-figure">
+                <i class="fa-solid fa-music fa-bounce"></i>
+              </div>
+              <div class="panel-body text-center">
+                <h4 class="panel-header">Dharohar</h4>
+                <p class="m-0">
+                  <small>Reviving Roots Through Art and Culture</small>
+                </p>
+              </div>
+              <div class="panel-thumbnails">
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <p class="m-0">
+                      Celebrating and preserving India's rich cultural legacy through....
+                    </p>
+                    <a href="our-work.html">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-3"
+            data-aos="zoom-in"
+            data-aos-delay="10"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div class="panel panel-default panel-card">
+              <div class="panel-heading">
+                <img src="soe.jpg" alt="" />
+              </div>
+              <div class="panel-figure">
+                <i class="fa-solid fa-lightbulb fa-bounce"></i>
+              </div>
+              <div class="panel-body text-center">
+                <h4 class="panel-header">Entrepreneurship</h4>
+                <p class="m-0">
+                  <small>Entrepreneurial skill development and mentorship</small>
+                </p>
+              </div>
+              <div class="panel-thumbnails">
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <p class="m-0">
+                      Lorem ipsum dolor sit, ame elit. Saepe, nam.
+                    </p>
+                    <a href="our-work.html">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- achieve -->
+
+    <section class="container-fluid mb-5" id="achieve">
+      <div class="row py-md-5 py-5">
+        <div class="col-12 text-center">
+          <img src="https://raw.githubusercontent.com/vinayshilpani/An-NGO-Website/master/assets/we-use-icon.png" alt="" width="60px" />
+          <h1>
+            Lives Impact <br class="d-none d-md-block" />
+          </h1>
+        </div>
+        <div class="row text-center count_div">
+          <section class="col-sm-6 col-md-3">
+            <img src="" alt="" />
+            <p class="pt-2"><span id="number1">0</span>+</p>
+            <h5 class="">
+              Gave Education To The <br />
+              Uneducated Children
+            </h5>
+          </section>
+          <section class="col-sm-6 col-md-3">
+            <img src="" alt="" />
+            <p class="pt-2"><span id="number2">0</span>+</p>
+            <h5 class="g-0">
+              Gave Food To The <br />
+              Needed People
+            </h5>
+          </section>
+          <section class="col-sm-6 col-md-3">
+            <img src="" alt="" />
+            <p class="pt-2"><span id="number3">0</span>+</p>
+            <h5 class="">
+              Gave Shelter To The <br />
+              Needed People
+            </h5>
+          </section>
+          <section class="col-sm-6 col-md-3">
+            <img src="" alt="" />
+            <p class="pt-2"><span id="number4">0</span>+</p>
+            <h5 class="">
+              Provided Shelter And <br />
+              Adoption For Homeless
+            </h5>
+          </section>
+        </div>
+      </div>
+    </section>
+        <!-- team & testimonials -->
+
+        <section class="container-fluid mb-5" id="about_team" >
+          <div class="row py-md-5" id="team">
+            <section class="col-md-6 text-center mb-3 mb-md-0">
+              <h1 class="m-4 pb-md-5">Meet Our Team</h1>
+              <div class="d-md-flex pt-4 pt-md-3">
+                <div class="d-flex justify-content-center align-items-center">
+                  <h5>
+                    Chandan Kumar <br />
+                    <span>President</span>
+                  </h5>
+                  <img src="chandan.png" alt="" />
+                </div>
+                <div class="d-flex justify-content-center align-items-center">
+                  <img src="pramod.png" alt="" />
+                  <h5>
+                    Pramod Kumar Suman <br />
+                    <span>Chairman</span>
+                  </h5>
+                </div>
+              </div>
+    
+              <div class="">
+                <img src="sangita.png" alt="" />
+                <h5>
+                  Sangita Bhagat <br />
+                  <span>VP and Head CSR</span>
+                </h5>
+              </div>
+    
+              <div class="d-md-flex pt-3">
+                <div class="d-flex justify-content-center align-items-center">
+                  <h5>
+                    Ravi Verma <br />
+                    <span> General Secretary </span>
+                  </h5>
+                  <img src="ravi.png" alt="" />
+                </div>
+                <div class="d-flex justify-content-center align-items-center">
+                  <img src="rameshwar pd.png" alt="" />
+                  <h5>
+                    Rameshwar Prasad<br />
+                    <span>Treasurer</span>
+                  </h5>
+                </div>
+              </div>
+              <!-- View More Team Members Link -->
+          <div class="row justify-content-center mt-4">
+            <div class="col-md-6 text-center">
+              <a href="about.html#meet-our-team" class="view-more-team">
+                <i class="fas fa-users me-2"></i>Our MITTI Family
+              </a>
+            </div>
+          </div>
+            </section>
+            <div class="col-md-6 text-center px-md-5 mb-5 mb-md-0">
+              <h1 class="m-4 pb-md-5">What People Says</h1>
+              <div
+                id="review_carousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner mt-md-5 mt-3">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="testimonial-wrapper">
+                          <div>
+                            <img src="https://raw.githubusercontent.com/vinayshilpani/An-NGO-Website/master/assets/quote-1.png" alt="" /> <br />
+                            <p class="m-2 m-md-4">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing
+                              elit. Laboriosam magniLorem ipsum dolor sit, amet
+                              consectetur adipisicing elit. Laboriosam magni
+                            </p>
+                            <h5>
+                              Chandan Kumar
+                              <img src="https://raw.githubusercontent.com/vinayshilpani/An-NGO-Website/master/assets/love-icon.png" alt="" width="15px" />
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="testimonial-wrapper">
+                          <div>
+                            <img src="https://raw.githubusercontent.com/vinayshilpani/An-NGO-Website/master/assets/quote-1.png" alt="" /> <br />
+                            <p class="m-2 m-md-4">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing
+                              elit. Laboriosam magniLorem ipsum dolor sit, amet
+                              consectetur adipisicing elit. Laboriosam magni
+                            </p>
+                            <h5>
+                              Sangita Bhagat
+                              <img src="https://raw.githubusercontent.com/vinayshilpani/An-NGO-Website/master/assets/love-icon.png" alt="" width="15px" />
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="testimonial-wrapper">
+                          <div>
+                            <img src="https://raw.githubusercontent.com/vinayshilpani/An-NGO-Website/master/assets/quote-1.png" alt="" /> <br />
+                            <p class="m-2 m-md-4">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing
+                              elit. Laboriosam magniLorem ipsum dolor sit, amet
+                              consectetur adipisicing elit. Laboriosam magni
+                            </p>
+                            <h5>
+                              Ram Kumar
+                              <img src="https://raw.githubusercontent.com/vinayshilpani/An-NGO-Website/master/assets/love-icon.png" alt="" width="15px" />
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </section>
+
+    <!-- Gallery -->
+
+    <div class="container mb-5" id="gallery">
+      <div class="row my-3">
+        <div class="col text-center">
+          <img src="https://raw.githubusercontent.com/vinayshilpani/An-NGO-Website/master/assets/love-icon.png" alt="" width="20px" />
+          <p class="m-0"></p>
+          <h1>Gallery & Media</h1>
+        </div>
+        
+
+            <!-- Small Gallery Section -->
+    <section class="small-gallery py-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 text-center mb-5">
+                  <h2 class="display-5">Our Gallery</h2>
+                  <p class="lead">Capturing moments of impact and transformation</p>
+              </div>
+          </div>
+          <div class="row g-4">
+              <!-- Gallery Item 1 -->
+              <div class="col-md-4">
+                  <div class="gallery-item">
+                      <div class="gallery-image">
+                          <img src="assets/gallery/education.jpg" alt="Education Initiatives" class="img-fluid">
+                          <div class="gallery-overlay">
+                              <div class="gallery-content">
+                                  <h4>Education Initiatives</h4>
+                                  <p>Transforming schools, empowering futures</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- Gallery Item 2 -->
+              <div class="col-md-4">
+                  <div class="gallery-item">
+                      <div class="gallery-image">
+                          <img src="assets/gallery/dharohar.jpg" alt="Dharohar Cultural Program" class="img-fluid">
+                          <div class="gallery-overlay">
+                              <div class="gallery-content">
+                                  <h4>Dharohar Cultural Program</h4>
+                                  <p>Preserving and celebrating our heritage</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- Gallery Item 3 -->
+              <div class="col-md-4">
+                  <div class="gallery-item">
+                      <div class="gallery-image">
+                          <img src="assets/gallery/events.jpg" alt="Events & Workshops" class="img-fluid">
+                          <div class="gallery-overlay">
+                              <div class="gallery-content">
+                                  <h4>Events & Workshops</h4>
+                                  <p>Community engagement and learning</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row mt-5">
+              <div class="col-12 text-center">
+                  <a href="gallery.html" class="btn btn-primary btn-lg view-more-btn">
+                      View More <i class="fas fa-arrow-right ms-2"></i>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </section><!-- Social Media Icons Bar -->
+        <div class="social-bar">
+          <a href="https://instagram.com" target="_blank" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://facebook.com" target="_blank" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com" target="_blank" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://linkedin.com" target="_blank" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://youtube.com" target="_blank" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Brand logoslide -->
+    <div class="container mb-5">
+      <div class="row text-center">
+        <div class="col-12">
+          <h1 class="mb-4">Our Partners</h1>
+        </div>
+      </div>
+    </div>
+    <div class="logos">
+      <div class="logo_items">
+      <img src="foxgloves.jpeg">
+      <img src="socialbytes.jpeg">
+      <img src="nplusone.png">
+      <img src="ecoprabandhan.jpeg">
+      <img src="pragati.jpeg">
+      <img src="mytimework.png">
+      <img src="skillsrediscovery.jpeg">
+      <img src="confab.jpeg">
+      <img src="skilltech.avif">
+      <img src="mubh.jpeg">
+      <img src="foxgloves.jpeg">
+      <img src="socialbytes.jpeg">
+      <img src="nplusone.png">
+      <img src="ecoprabandhan.jpeg">
+      <img src="pragati.jpeg">
+      <img src="mytimework.png">
+      <img src="skillsrediscovery.jpeg">
+      <img src="confab.jpeg">
+      <img src="skilltech.avif">
+      <img src="mubh.jpeg">
+      <img src="foxgloves.jpeg">
+      <img src="socialbytes.jpeg">
+      <img src="nplusone.png">
+      <img src="ecoprabandhan.jpeg">
+      <img src="pragati.jpeg">
+      <img src="mytimework.png">
+      <img src="skillsrediscovery.jpeg">
+      <img src="confab.jpeg">
+      <img src="skilltech.avif">
+      <img src="mubh.jpeg">
+      <img src="foxgloves.jpeg">
+      <img src="socialbytes.jpeg">
+      <img src="nplusone.png">
+      <img src="ecoprabandhan.jpeg">
+      <img src="pragati.jpeg">
+      <img src="mytimework.png">
+      <img src="skillsrediscovery.jpeg">
+      <img src="confab.jpeg">
+      <img src="skilltech.avif">
+      <img src="mubh.jpeg">
+      </div>
+    </div>
+
+
+    <!-- become helper -->
+
+    <section class="container pb-4" id="help">
+      <div class="row" id="volunteer">
+        <div class="col-12 text-center">
+          <img src="https://raw.githubusercontent.com/vinayshilpani/An-NGO-Website/master/assets/sketch-3.png" alt="" width="250px" />
+          <h1 class="">
+            Help People Change Lives <br class="d-none d-md-block" />
+            Locally and Around <br class="d-none d-md-block" />
+            The World
+          </h1>
+        </div>
+        <div class="my-3 my-md-5 text-center">
+          <a href="">Become a Volunteer/Member</a>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <div class="footer-brand">
+              <img src="logo.png" alt="Our MITTI Foundation" class="img-fluid mb-3" />
+              <p class="text-white">
+                Our MITTI Foundation is dedicated to building a more inclusive and empowered society through education, entrepreneurship, and social development initiatives.
+              </p>
+              <div class="social-bar">
+                <a href="https://instagram.com" target="_blank" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com" target="_blank" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com" target="_blank" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://youtube.com" target="_blank" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="footer-title">Quick Links</h5>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about_team">About Us</a></li>
+              <li><a href="#t-cards">Our Work</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="footer-title">Our Programs</h5>
+            <ul class="footer-links">
+              <li><a href="#">Education Initiatives</a></li>
+              <li><a href="#">Dharohar Cultural Program</a></li>
+              <li><a href="#">Entrepreneurship Development</a></li>
+              <li><a href="#">Community Outreach</a></li>
+              <li><a href="#">Volunteer Programs</a></li>
+            </ul>
+          </div>
+          
+          <div class="col-lg-3 col-md-6">
+            <h5 class="footer-title">Contact Info</h5>
+            <ul class="footer-contact">
+              <li>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:ourmittifoundation.ngo@gmail.com">ourmittifoundation.ngo@gmail.com</a>
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <a href="tel:+919811563566">+91 9811563566</a>
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>209, 2nd Floor, City Centre,<br>
+                Plot No.5, Pocket 8, Block B,<br>
+                Sector 12, Dwarka, N.Delhi -110077</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="mb-0">&copy; 2024 Our MITTI Foundation. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <a href="#" class="footer-bottom-link">Privacy Policy</a>
+              <a href="#" class="footer-bottom-link">Terms of Service</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootstrap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src=""></script>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
