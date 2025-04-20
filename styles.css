@@ -1697,3 +1697,20 @@ button[type="submit"]:hover {
         font-size: 1.25rem;
     }
 }
+
+.team-card .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.team-card .social-icon {
+    color: #333;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.team-card .social-icon:hover {
+    color: rgb(8, 97, 12);
+}
